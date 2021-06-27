@@ -1,0 +1,13 @@
+<main>
+  <div class="container px-5 px-sm-0">
+    
+    <%= render 'books/errors',book:@book %>
+    <div class="row">
+
+      <%= render 'books/sidebar',user:current_user %>
+
+      <%= render 'books/contents',books:@books %>
+      
+    </div>
+  </div>
+</main>
